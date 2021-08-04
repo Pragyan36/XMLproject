@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!-- external css -->
+<?xml-stylesheet type="text/css" href="catalog_19031325.css"?>
+
+<!-- DTD-->
+<!-- <!DOCTYPE musicStore SYSTEM "catalog_19031325.dtd"[]> -->
+
+<!-- Schema -->
+<musicStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+			xsi:noNamespaceSchemaLocation="catalog_19031325.xsd">
+            
+    <!-- Store -->
+    <storeInfo>
+        <logo></logo>
+        <storeName>Macho Music Store</storeName>
+        <address>Gatthaghar,Bhaktapur</address>
+        <contact>9860721670</contact>
+        <website>https://Machomusicstore.com</website>
+    </storeInfo>
+
+    <!-- Musics-->
+    <music>
+        <category>Songs Category</category>
+        <song songId='S1'>
+            <name>Aparichit Bhaawana</name>
+            <image imageId='I1'></image>
+            <genre>Genre: Blues</genre>
+            <album>Album: Aparichit</album>
+            <releaseDate>Release Date: January 31, 2020</releaseDate>
+            <singers>
+                <title>Singer Name</title>
+                <singer>Oasis Thapa</singer>
+            </singers>
+            <recordedBy>Recorded By: Pragyan Maharjan</recordedBy>
+            <songWriters>
+                <label>Writer</label>
+                <writer>Oasis Thapa</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer</producerName>
+            	<producer>Producer:Oasis Thapa</producer> 
+            </producers>
+        </song>
+
+        <song songId='S2'>
+            <name>REBIRTH</name>
+            <image imageId='I2'></image>
+            <genre>Genre: Rap</genre>
+            <album>Album: Rebirth</album>
+            <releaseDate>Release Date: January 1, 2021</releaseDate>
+            <singers>
+            	<title>Singer</title>
+                <singer>Neetesh Jung Kunwar</singer>
+                <singer>Uniq Poet</singer>
+            </singers>
+            <recordedBy>Recorded By: Mr. Brownie</recordedBy>
+             <songWriters>
+                <label>Writers</label>
+                <writer>Neetesh Jung Kunwar</writer>
+                <writer>Uniq Poet</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer</producerName>
+            	<producer>Mr. Brownie</producer> 
+            </producers>
+	    </song>
+
+        <song songId='S3'>
+            <name>Mayako Katha</name>
+            <image imageId='I3'></image>
+            <genre>Genre: Blues</genre>
+            <album>Album: Mayako Katha</album>
+            <releaseDate>Release Date: Apr 28, 2020</releaseDate>
+            <singers>
+            	<title>Singer</title>
+                <singer>Bekcha</singer>
+            </singers>
+            <recordedBy>Recorded By: Bekcha</recordedBy>
+            <songWriters>
+            	<label>Writers</label>
+                <writer>Bekcha</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer</producerName>
+            	<producer>Bekcha</producer> 
+            </producers>
+        </song>
+
+        <song songId='S4'>
+            <name>BATASH</name>
+            <image imageId='I4'></image>
+            <genre>Genre: POP</genre>
+            <album>Album:BATASH</album>
+            <releaseDate>Release Date: Jul 27, 2020</releaseDate>
+            <singers>
+            	<title>Singer</title>
+                <singer> Shashwot Khadka </singer>
+            </singers>
+            <songWriters>
+            	<label>Writer</label>
+                <writer> Shashwot Khadka </writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer</producerName>
+            	<producer>Sanjeev Tamang</producer> 
+            </producers>
+            <directors>
+            	<directorName>Director</directorName>
+            	<director> Bigyan Karki,</director>
+                <director> Roshan Paudel</director>
+            </directors>
+        </song>
+
+        <song songId='S5'>
+            <name>AAMAA</name>
+            <image imageId='I5'></image>
+            <genre>Genre: Rap</genre>
+            <album>Album:AAMAA</album>
+            <releaseDate>Release Date: May 14, 2012</releaseDate>
+            <singers>
+            	<title>Singer:</title>
+                <singer>YAMA BUDDHA,</singer>
+                <singer>MISTAH K (NEPSYDAZ)</singer>
+            </singers>
+            <recordedBy>Recorded By: YAMA BUDDHA</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>YAMA BUDDHA,</writer>
+                <writer>MISTAH K (NEPSYDAZ)</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>YAMA BUDDHA</producer> 
+            </producers>
+        </song>
+
+        <song songId='S6'>
+            <name>Nothing Else Matters</name>
+            <image imageId='I6'></image>
+            <genre>Genre: Electronic Dance Music</genre>
+            <album>Album:TheBlackAlbum</album>
+            <releaseDate>Release Date: April 20, 1992</releaseDate>
+            <bands>
+            	<bandTitle>Band:</bandTitle>
+                <band>Metallica</band>
+            </bands>
+            <singers>
+            	<title>Singers:</title>
+                <singer>Bob Rock</singer>
+            </singers>
+            <recordedBy>Recorded By: One on One, North Hollywood, California</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>James Hetfield,</writer>
+                <writer>JLars Ulrich,</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>Bob Rock,</producer> 
+            	<producer>James Hetfield,</producer> 
+            	<producer>Lars Ulrich</producer> 
+            </producers>
+	     </song>
+
+
+        <song songId='S7'>
+            <name>Thunderstruck</name>
+            <image imageId='I7'></image>
+            <genre>Genre: Rock</genre>
+            <album>Album:The Razors Edge</album>
+            <releaseDate>Release Date:10 September 1990</releaseDate>
+            <bands>
+            	<bandTitle>Band:</bandTitle>
+                <band>AC/DC</band>
+            </bands>
+            <singers>
+            	<title>Singers:</title>
+                <singer>Brain Johnson</singer>
+                <singer>Axl Rose</singer>
+            </singers>
+            <recordedBy>Recorded By: AC/DC</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>Malcolm Young,</writer>
+                <writer>Angus Young</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>Bruce Fairbairn</producer> 
+            </producers>
+	     </song>
+
+	     <song songId='S8'>
+            <name>Kathmandu Bazar</name>
+            <image imageId='I8'></image>
+            <genre>Genre: Blues</genre>
+            <album>Album:Kathmandu Bazar </album>
+            <releaseDate>Release Date:Mar 25, 2021</releaseDate>
+            <singers>
+            	<title>Singers:</title>
+                <singer>Uday Raj Poudel</singer>
+            </singers>
+            <recordedBy>Recorded By: Beest Production </recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>Sabin Ektaare</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>Sanjay Karki </producer> 
+            </producers>
+            <directors>
+            	<directorName>Director:</directorName>
+            	<director> Sabin Beest</director>
+            </directors>
+	     </song>
+
+	     <song songId='S9'>
+            <name>Closer</name>
+            <image imageId='I9'></image>
+            <genre>Genre: Electronic Dance Music</genre>
+            <album>Album:Collage </album>
+            <releaseDate>Release Date:Jul 29, 2016</releaseDate>
+            <singers>
+            	<title>Singers:</title>
+                <singer>The Chainsmokers</singer>
+            </singers>
+            <recordedBy>Recorded By: The Chainsmokers</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>Andrew Taggart,</writer>
+                <writer>Joe King,</writer>
+                <writer>Ashley Frangipane</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>The Chainsmokers </producer> 
+            </producers>
+	     </song>
+
+	     <song songId='S10'>
+            <name>Viva La Vida</name>
+            <image imageId='I10'></image>
+            <genre>Genre: Rock</genre>
+            <album>Album:Viva la Vida or Death and All His Friends </album>
+            <releaseDate>Release Date:	13 June 2008</releaseDate>
+             <bands>
+            	<bandTitle>Band:</bandTitle>
+                <band>Coldplay</band>
+            </bands>
+            <recordedBy>Recorded By: Coldplay </recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>Guy Berryman,</writer>
+                <writer>Jonny Buckland,</writer>
+                <writer>Will Champion,</writer>
+                <writer>Chris Martin</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>Markus Dravs</producer> 
+            	<producer>Brian Eno</producer> 
+            	<producer>Jon Hopkins</producer> 
+            </producers>
+	     </song>
+
+	      <song songId='S11'>
+            <name>Shape of You</name>
+            <image imageId='I11'></image>
+            <genre>Genre: POP</genre>
+            <album>Album:Shape of You</album>
+            <releaseDate>Release Date:	6 January 2017</releaseDate>
+            <singers>
+            	<title>Singers:</title>
+                <singer>Ed Sheeran</singer>
+            </singers>
+            <recordedBy>Recorded By:	Rokstone (London)Gingerbread Man (Suffolk and London)</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>Ed Sheeran,</writer>
+                <writer>Steve Mac</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>Ed Sheeran</producer> 
+            	<producer>Steve Mac</producer> 
+            </producers>
+	     </song>
+
+	     <song songId='S12'>
+            <name>Lonely (Mr. Lonely)</name>
+            <image imageId='I12'></image>
+            <genre>Genre: Hip Hop</genre>
+            <album> Album:Trouble</album>
+            <releaseDate>Release Date:April 19, 2005</releaseDate>
+            <singers>
+            	<title>Singers:</title>
+                <singer> Akon</singer>
+            </singers>
+            <recordedBy>Recorded By: Akon</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer> Akon,</writer>
+                <writer>Bobby Vinton,</writer>
+                <writer>Gene Allan</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>	Akon,</producer> 
+            	<producer>Disco D</producer> 
+            </producers>
+	     </song>
+
+	     <song songId='S13'>
+            <name>Faded</name>
+            <image imageId='I13'></image>
+            <genre>Genre: Electro-house</genre>
+            <album> Album:Different World</album>
+            <releaseDate>Release Date:	4 December 2015</releaseDate>
+            <singers>
+            	<title>Singers:</title>
+                <singer>Alan Walker</singer>
+            </singers>
+            <recordedBy>Recorded By: Alan Walker</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer> Alan Walker,</writer>
+                <writer>Jesper Borgen,</writer>
+                <writer>Anders Froen</writer>
+                <writer>Gunnar Greve Pettersen</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producers:</producerName>
+            	<producer>	Alan Walker,</producer> 
+            	<producer>Mood Melodies</producer> 
+            	<producer>Jesper Borgen</producer> 
+            </producers>
+            <directors>
+            	<directorName>Directors:</directorName>
+            	<director>  Rikkard,</director>
+            	<director>  Tobias Haggbom</director>
+            </directors>
+	     </song>
+
+	     <song songId='S14'>
+            <name>1994</name>
+            <image imageId='I14'></image>
+            <genre>Genre: Hip Hop</genre>
+            <album> 1994</album>
+            <releaseDate>Release Date:Oct 9, 2019</releaseDate>
+            <singers>
+            	<title>Singers:</title>
+                <singer> Uniq Poet</singer>
+            </singers>
+            <recordedBy>Recorded By: Uniq Poet</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>Uniq Poet</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>	Uniq Poet</producer> 
+            </producers>
+	     </song>
+
+	     <song songId='S15'>
+            <name>Sathi</name>
+            <image imageId='I15'></image>
+            <genre>Genre: Soul</genre>
+            <album> Sathi</album>
+            <releaseDate>Release Date:Aug 31, 2019</releaseDate>
+            <singers>
+            	<title>Singers:</title>
+                <singer> Sushant KC</singer>
+            </singers>
+            <recordedBy>Recorded By:Sushant KC</recordedBy>
+            <songWriters>
+            	<label>Writer:</label>
+                <writer>Sushant KC</writer>
+            </songWriters>
+            <producers>
+            	<producerName> Producer:</producerName>
+            	<producer>	Sushant KC</producer> 
+            </producers>
+            <directors>
+            	<directorName>Director:</directorName>
+            	<director> Abin Bho</director>
+            </directors>
+	     </song>
+
+
+
+    </music>
+
+</musicStore>

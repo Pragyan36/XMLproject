@@ -1,0 +1,34 @@
+<!ELEMENT musicStore (storeInfo, music)>
+<!ELEMENT storeInfo (logo, storeName, address, contact, website)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT storeName (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT music (category, song+)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT song (name, image, genre, album, releaseDate, bands?, singers?, recordedBy?, songWriters?, producers?, directors?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT releaseDate (#PCDATA)>
+<!ELEMENT bands (bandTitle, band+)>
+<!ELEMENT bandTitle (#PCDATA)>
+<!ELEMENT band (#PCDATA)>
+<!ELEMENT singers (title, singer+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT recordedBy (#PCDATA)>
+<!ELEMENT songWriters (label, writer+)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT producers (producerName, producer+)>
+<!ELEMENT producerName (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT directors (directorName, director+)>
+<!ELEMENT directorName (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ATTLIST song songId ID #REQUIRED>
+<!ATTLIST image imageId ID #REQUIRED>
+

@@ -1,0 +1,194 @@
+/* Color palette: https://coolors.co/bfcde0-fefcfd-ff6b6b-494947-212121*/
+
+musicStore {
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+storeInfo {
+    display:block;
+    text-align:left;
+}
+
+storeName, logo{
+        display: list-item;
+}
+
+storeName {
+    font-family:cursive,arial,helvetica;
+    font-weight: 250;
+    font-size: 90px;
+    padding: 5px; 
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20%;
+    text-align:left;
+}
+
+logo{
+    content: url(Images/logo.PNG);
+    float:left;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+address,contact,website {
+    display: inline;
+    font-family:  cursive, Arial, Helvetica;
+    color:#0e0c0d;
+    width: 40%; 
+    font-size: 15pt;
+    padding: 1px;
+    margin-left: 60px;
+    margin-top: 5px;
+    text-align:center;
+}
+
+music{
+    display: block;
+}
+
+category {
+    margin-top: 60px;
+    text-align: center;
+    width: 98%;
+    display: block;
+    font-size: 50px;
+    font-family: "Comic Sans Ms";
+    padding-bottom: 20px;
+    padding-left: 25px;
+    color:rgb(0, 0, 0);
+}
+
+song{
+    margin-top: 25px;
+    display: inline-block;
+    background-color:rgb(0, 0, 0);
+    padding-top:25px;
+    padding-bottom: 25px;
+    margin-right: 10px;
+    width: 90%;
+}
+
+name {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+genre, album, releaseDate, recordedBy, producers, title, bands, bandTitle, singers, songWriters, writer, label {
+    display: list-item;
+    font-family:  cursive, Arial, Helvetica;
+    font-size:15pt;
+    padding: 10px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+}
+
+title, singer {
+   display: inline; 
+}
+label, writer {
+    display: inline;
+    text-align: left;
+    margin-left: 0%;
+}
+
+singer, writer, band{
+    display: inline;
+    color:rgb(255, 255, 255);
+    text-align: left;
+}
+
+bandTitle, band{
+    display: inline;
+}
+
+image{
+    float: right;
+    height: 500px;
+    width: 40%;
+    margin-right: 150px;
+    
+}
+
+image[imageId='I1']{
+    content: url(Images/I1.PNG);
+    
+}
+image[imageId='I2']{
+    content: url(Images/I2.png);
+    
+}
+
+image[imageId='I3']{
+    content: url(Images/I3.png);
+    
+}
+
+image[imageId='I4']{
+    content: url(Images/I4.png);
+    
+}
+
+image[imageId='I5']{
+    content: url(Images/I5.PNG);
+    
+}
+
+image[imageId='I6']{
+    content: url(Images/I6.PNG);
+    
+}
+
+image[imageId='I7']{
+    content: url(Images/I7.PNG);
+    
+}
+
+image[imageId='I8']{
+    content: url(Images/I8.PNG);
+    
+}
+
+image[imageId='I9']{
+    content: url(Images/I9.PNG);
+    
+}
+
+image[imageId='I10']{
+    content: url(Images/I10.PNG);
+    
+}
+
+image[imageId='I11']{
+    content: url(Images/I11.PNG);
+    
+}
+
+image[imageId='I12']{
+    content: url(Images/I12.PNG);
+    
+}
+
+image[imageId='I14']{
+    content: url(Images/I14.PNG);
+    
+}
+
+image[imageId='I13']{
+    content: url(Images/I13.PNG);
+    
+}
+
+image[imageId='I15']{
+    content: url(Images/I15.PNG);
+    
+}
